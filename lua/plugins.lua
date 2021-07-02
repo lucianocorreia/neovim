@@ -15,8 +15,11 @@ return require('packer').startup(function()
         "kyazdani42/nvim-tree.lua",
         -- cmd = "NvimTreeToggle",
         config = function()
-            require("lv-nvimtree").config()
+            require("c-nvimtree").config()
         end
     }
+
+    -- LSP
+    use 'neovim/nvim-lspconfig'
 
 end)
