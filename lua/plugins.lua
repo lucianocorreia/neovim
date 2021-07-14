@@ -10,6 +10,8 @@ return require('packer').startup(function()
     use "kyazdani42/nvim-web-devicons"
     use "ryanoasis/vim-devicons"
 
+	use 'nvim-treesitter/nvim-treesitter'
+
     -- File explorer
     use {
         "kyazdani42/nvim-tree.lua",
@@ -21,5 +23,7 @@ return require('packer').startup(function()
 
     -- LSP
     use 'neovim/nvim-lspconfig'
+
+
 
 end)
