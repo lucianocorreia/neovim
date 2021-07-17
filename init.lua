@@ -9,4 +9,5 @@ require("c-autopairs")
 -- LSP
 require("c-lspconfig")
 require("c-compe")
+require("c-formatter")
 
