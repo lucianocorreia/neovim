@@ -21,8 +21,22 @@ return require('packer').startup(function()
         end
     }
 
+	-- geral
+	use 'windwp/nvim-autopairs'
+
     -- LSP
     use 'neovim/nvim-lspconfig'
+	use 'hrsh7th/nvim-compe'
+	use "ray-x/lsp_signature.nvim"
+	use {
+  		'lewis6991/gitsigns.nvim',
+  		requires = {
+    		'nvim-lua/plenary.nvim'
+  		},
+		config = function()
+    		require('gitsigns').setup()
+  		end
+	}
 
 
 
