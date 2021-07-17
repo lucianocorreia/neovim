@@ -2,4 +2,5 @@
 --vim.g.material_style = "deep ocean"
 --vim.g.ci_dark_enable_bold = 1
 
-vim.cmd("colorscheme ci_dark")
+vim.cmd("colorscheme codeschool")
+--require("colorbuddy").colorscheme("gruvbuddy")

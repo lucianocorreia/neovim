@@ -5,7 +5,7 @@ return require("packer").startup(
 
     -- Colorschemes
     use "sainnhe/everforest"
-    use "yunlingz/ci_dark"
+    use {"adisen99/codeschool.nvim", requires = {"rktjmp/lush.nvim"}}
 
     -- Icons
     use "kyazdani42/nvim-web-devicons"
@@ -28,6 +28,8 @@ return require("packer").startup(
       "nvim-telescope/telescope.nvim",
       requires = {{"nvim-lua/popup.nvim"}, {"nvim-lua/plenary.nvim"}}
     }
+    use "voldikss/vim-floaterm"
+    use "liuchengxu/vim-which-key"
 
     -- LSP
     use "neovim/nvim-lspconfig"

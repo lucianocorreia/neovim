@@ -69,9 +69,9 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ci_dark = {
+  ["codeschool.nvim"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/ci_dark"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/codeschool.nvim"
   },
   everforest = {
     loaded = true,
@@ -89,6 +89,10 @@ _G.packer_plugins = {
   ["lsp_signature.nvim"] = {
     loaded = true,
     path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/lush.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -127,10 +131,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/popup.nvim"
   },
-  rainbow = {
-    loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/rainbow"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/telescope.nvim"
@@ -138,6 +138,14 @@ _G.packer_plugins = {
   ["vim-devicons"] = {
     loaded = true,
     path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-devicons"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-floaterm"
+  },
+  ["vim-which-key"] = {
+    loaded = true,
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-which-key"
   }
 }
 
