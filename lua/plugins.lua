@@ -5,7 +5,7 @@ return require("packer").startup(
 
     -- Colorschemes
     use "sainnhe/everforest"
-    use {"adisen99/codeschool.nvim", requires = {"rktjmp/lush.nvim"}}
+    use "projekt0n/github-nvim-theme"
 
     -- Icons
     use "kyazdani42/nvim-web-devicons"
@@ -30,6 +30,14 @@ return require("packer").startup(
     }
     use "voldikss/vim-floaterm"
     use "liuchengxu/vim-which-key"
+    use {
+      "hoob3rt/lualine.nvim",
+      requires = {"kyazdani42/nvim-web-devicons", opt = true}
+    }
+    use {"akinsho/nvim-bufferline.lua", requires = "kyazdani42/nvim-web-devicons"}
+    use "norcalli/nvim-colorizer.lua"
+    use "mhinz/vim-startify"
+    use "terrortylor/nvim-comment"
 
     -- LSP
     use "neovim/nvim-lspconfig"
@@ -45,5 +53,9 @@ return require("packer").startup(
       end
     }
     use "mhartington/formatter.nvim"
+    use "glepnir/lspsaga.nvim"
+	use "golang/vscode-go"
+
+
   end
 )

@@ -47,6 +47,16 @@ bo.shiftwidth = 4
 bo.expandtab = true
 bo.fileencoding = "utf-8"
 
+-- go lang
+vim.g.go_highlight_types = 1
+vim.g.go_highlight_fields = 1
+vim.g.go_highlight_functions = 1
+vim.g.go_highlight_function_calls = 1
+vim.g.go_highlight_operators = 1
+vim.g.go_highlight_extra_types = 1
+vim.g.go_highlight_build_constraints = 1
+vim.g.go_highlight_generate_tags = 1
+
 ------- Commands -------
 vim.cmd("set ts=4") --Insert 2 spaces for a tab
 vim.cmd("set sw=4") --Change the number of space characters inserted for indentation
