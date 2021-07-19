@@ -6,6 +6,7 @@ return require("packer").startup(
     -- Colorschemes
     use "sainnhe/everforest"
     use "projekt0n/github-nvim-theme"
+	use 'marko-cerovac/material.nvim'
 
     -- Icons
     use "kyazdani42/nvim-web-devicons"
