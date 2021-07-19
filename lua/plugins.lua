@@ -54,8 +54,5 @@ return require("packer").startup(
     }
     use "mhartington/formatter.nvim"
     use "glepnir/lspsaga.nvim"
-	use "golang/vscode-go"
-
-
   end
 )
