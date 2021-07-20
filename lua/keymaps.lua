@@ -54,15 +54,12 @@ vim.g.floaterm_height = 0.8
 vim.g.floaterm_wintitle = 0
 vim.g.floaterm_autoclose = 1
 
-vim.api.nvim_exec(
-  [[
+vim.api.nvim_exec([[
 augroup FormatAutogroup
   autocmd!
-  autocmd BufWritePost *.js,*.rs,*.lua,*.ts,*.go  FormatWrite
+  autocmd BufWritePost *.* FormatWrite
 augroup END
-]],
-  true
-)
+]], true)
 
 -- Better nav for omnicomplete
 -- vim.cmd('inoremap <expr> <c-j> (\"\\<C-n>\")')
