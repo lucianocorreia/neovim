@@ -6,7 +6,7 @@ return require("packer").startup(
     -- Colorschemes
     use "sainnhe/everforest"
     use "projekt0n/github-nvim-theme"
-	use 'marko-cerovac/material.nvim'
+    use "marko-cerovac/material.nvim"
 
     -- Icons
     use "kyazdani42/nvim-web-devicons"
@@ -25,6 +25,9 @@ return require("packer").startup(
 
     -- geral
     use "windwp/nvim-autopairs"
+    use "jiangmiao/auto-pairs"
+    use "terryma/vim-multiple-cursors"
+    use "mattn/emmet-vim"
     use {
       "nvim-telescope/telescope.nvim",
       requires = {{"nvim-lua/popup.nvim"}, {"nvim-lua/plenary.nvim"}}
