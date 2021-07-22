@@ -42,6 +42,7 @@ return require("packer").startup(
     use "norcalli/nvim-colorizer.lua"
     use "mhinz/vim-startify"
     use "terrortylor/nvim-comment"
+	use 'alvan/vim-closetag'
 
     -- LSP
     use "neovim/nvim-lspconfig"
