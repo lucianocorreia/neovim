@@ -58,5 +58,6 @@ return require("packer").startup(
     }
     use "mhartington/formatter.nvim"
     use "glepnir/lspsaga.nvim"
+    use "fatih/vim-go"
   end
 )
