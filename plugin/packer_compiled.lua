@@ -25,7 +25,7 @@ local no_errors, error_msg = pcall(function()
   else
     time = function(chunk, start) end
   end
-
+  
 local function save_profiles(threshold)
   local sorted_times = {}
   for chunk_name, time_taken in pairs(profile_info) do
@@ -44,8 +44,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/root/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/root/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/root/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/root/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/root/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/Users/lucianocorreia/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/lucianocorreia/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/lucianocorreia/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/lucianocorreia/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/lucianocorreia/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -71,109 +71,109 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["auto-pairs"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/auto-pairs"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/auto-pairs"
   },
   ["emmet-vim"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/emmet-vim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/emmet-vim"
   },
   everforest = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/everforest"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/everforest"
   },
   ["formatter.nvim"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/formatter.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/formatter.nvim"
   },
   ["github-nvim-theme"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/github-nvim-theme"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/github-nvim-theme"
   },
   ["gitsigns.nvim"] = {
-    config = { "\27LJ\2\0026\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0" },
+    config = { "\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0" },
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/gitsigns.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/gitsigns.nvim"
   },
   ["lsp_signature.nvim"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim"
   },
   ["lspsaga.nvim"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/lualine.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/lualine.nvim"
   },
   ["material.nvim"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/material.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/material.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
   },
   ["nvim-bufferline.lua"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
   },
   ["nvim-colorizer.lua"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
   },
   ["nvim-comment"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/nvim-comment"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-comment"
   },
   ["nvim-compe"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/nvim-compe"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-compe"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
-    config = { "\27LJ\2\0029\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\vconfig\15c-nvimtree\frequire\0" },
+    config = { "\27LJ\2\n9\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\vconfig\15c-nvimtree\frequire\0" },
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/packer.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/plenary.nvim"
   },
   ["popup.nvim"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/popup.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/popup.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
   ["vim-closetag"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/vim-closetag"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-closetag"
   },
   ["vim-devicons"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/vim-devicons"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-devicons"
   },
   ["vim-floaterm"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/vim-floaterm"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-floaterm"
   },
   ["vim-go"] = {
     loaded = true,
@@ -181,26 +181,22 @@ _G.packer_plugins = {
   },
   ["vim-multiple-cursors"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/vim-multiple-cursors"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-multiple-cursors"
   },
   ["vim-startify"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/vim-startify"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-startify"
   },
   ["vim-which-key"] = {
     loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/vim-which-key"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-which-key"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: gitsigns.nvim
-time([[Config for gitsigns.nvim]], true)
-try_loadstring("\27LJ\2\0026\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0", "config", "gitsigns.nvim")
-time([[Config for gitsigns.nvim]], false)
 -- Config for: nvim-tree.lua
 time([[Config for nvim-tree.lua]], true)
-try_loadstring("\27LJ\2\0029\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\vconfig\15c-nvimtree\frequire\0", "config", "nvim-tree.lua")
+try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\vconfig\15c-nvimtree\frequire\0", "config", "nvim-tree.lua")
 time([[Config for nvim-tree.lua]], false)
 -- Config for: gitsigns.nvim
 time([[Config for gitsigns.nvim]], true)
