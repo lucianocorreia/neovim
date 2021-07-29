@@ -77,17 +77,9 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/emmet-vim"
   },
-  everforest = {
-    loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/everforest"
-  },
   ["formatter.nvim"] = {
     loaded = true,
     path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/formatter.nvim"
-  },
-  ["github-nvim-theme"] = {
-    loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/github-nvim-theme"
   },
   ["gitsigns.nvim"] = {
     config = { "\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0" },
@@ -109,10 +101,6 @@ _G.packer_plugins = {
   ["material.nvim"] = {
     loaded = true,
     path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/material.nvim"
-  },
-  ["nvim-autopairs"] = {
-    loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
   },
   ["nvim-bufferline.lua"] = {
     loaded = true,
@@ -194,14 +182,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-tree.lua
-time([[Config for nvim-tree.lua]], true)
-try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\vconfig\15c-nvimtree\frequire\0", "config", "nvim-tree.lua")
-time([[Config for nvim-tree.lua]], false)
 -- Config for: gitsigns.nvim
 time([[Config for gitsigns.nvim]], true)
 try_loadstring("\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0", "config", "gitsigns.nvim")
 time([[Config for gitsigns.nvim]], false)
+-- Config for: nvim-tree.lua
+time([[Config for nvim-tree.lua]], true)
+try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\vconfig\15c-nvimtree\frequire\0", "config", "nvim-tree.lua")
+time([[Config for nvim-tree.lua]], false)
 if should_profile then save_profiles() end
 
 end)

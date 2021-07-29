@@ -4,8 +4,6 @@ return require("packer").startup(
     use "wbthomason/packer.nvim"
 
     -- Colorschemes
-    use "sainnhe/everforest"
-    use "projekt0n/github-nvim-theme"
     use "marko-cerovac/material.nvim"
 
     -- Icons
@@ -24,7 +22,6 @@ return require("packer").startup(
     }
 
     -- geral
-    use "windwp/nvim-autopairs"
     use "jiangmiao/auto-pairs"
     use "terryma/vim-multiple-cursors"
     use "mattn/emmet-vim"
@@ -42,7 +39,7 @@ return require("packer").startup(
     use "norcalli/nvim-colorizer.lua"
     use "mhinz/vim-startify"
     use "terrortylor/nvim-comment"
-	use 'alvan/vim-closetag'
+    use "alvan/vim-closetag"
 
     -- LSP
     use "neovim/nvim-lspconfig"

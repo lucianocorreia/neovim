@@ -7,8 +7,8 @@ vim.cmd("set shortmess+=c") -- Don't pass messages to |ins-completion-menu|.
 -- vim.cmd("set colorcolumn=99999") -- fix indentline for now
 
 -- global options
-o.tabstop = 4
-o.shiftwidth = 4
+o.tabstop = 2
+o.shiftwidth = 2
 o.hlsearch = true
 o.foldlevelstart = 4 -- auto code folding when openeing new file at level 1
 o.mouse = "a"
