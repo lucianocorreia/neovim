@@ -5,12 +5,11 @@
 vim.g.go_highlight_functions = 1
 vim.g.go_highlight_function_calls = 1
 
-vim.g.material_style = "darker"
-
---vim.cmd("colorscheme onedark")
+-- vim.g.material_style = "oceanic"
+-- require("material.functions").toggle_style()
+--vim.cmd("colorscheme aurora")
 --require("colorbuddy").colorscheme("gruvbuddy")
 
-require('material').set()
 
 -- Example config in Lua
 -- require("github-theme").setup(

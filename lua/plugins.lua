@@ -4,7 +4,12 @@ return require("packer").startup(
     use "wbthomason/packer.nvim"
 
     -- Colorschemes
-    use "marko-cerovac/material.nvim"
+	use {
+		'https://git.sr.ht/~novakane/kosmikoa.nvim',
+		config = function()
+			require'kosmikoa'
+		end,
+	}
 
     -- Icons
     use "kyazdani42/nvim-web-devicons"
@@ -45,17 +50,12 @@ return require("packer").startup(
     use "neovim/nvim-lspconfig"
     use "hrsh7th/nvim-compe"
     use "ray-x/lsp_signature.nvim"
-    use {
-      "lewis6991/gitsigns.nvim",
-      requires = {
-        "nvim-lua/plenary.nvim"
-      },
-      config = function()
-        require("gitsigns").setup()
-      end
-    }
-    use "mhartington/formatter.nvim"
+   use "mhartington/formatter.nvim"
     use "glepnir/lspsaga.nvim"
-    use "fatih/vim-go"
+    -- use "fatih/vim-go"
+    use "ray-x/go.nvim"
+    use "hrsh7th/vim-vsnip"
+
+    use {"ray-x/navigator.lua", requires = {"ray-x/guihua.lua", run = "cd lua/fzy && make"}}
   end
 )

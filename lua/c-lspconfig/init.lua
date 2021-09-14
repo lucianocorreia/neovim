@@ -39,14 +39,36 @@ local on_attach = function(client, bufnr)
   buf_set_keymap("n", "<space>f", "<cmd>lua vim.lsp.buf.formatting()<CR>", opts)
 end
 
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+capabilities.textDocument.completion.completionItem.resolveSupport = {
+  properties = {
+    "documentation",
+    "detail",
+    "additionalTextEdits"
+  }
+}
+
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
-local servers = {"pyright", "rust_analyzer", "tsserver", "gopls", "dockerls", "html", "intelephense", "efm"}
+local servers = {"pyright", "rust_analyzer", "tsserver", "gopls", "dockerls", "html", "intelephense"}
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = on_attach,
+    capabilities = capabilities,
     flags = {
       debounce_text_changes = 150
     }
   }
 end
+
+require("go").setup()
+
+-- Format on save
+vim.api.nvim_exec([[ autocmd BufWritePre *.go :silent! lua require('go.format').gofmt() ]], false)
+
+-- Import on save
+vim.api.nvim_exec([[ autocmd BufWritePre *.go :silent! lua require('go.format').goimport() ]], false)
+
+
+

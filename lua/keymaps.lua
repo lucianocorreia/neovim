@@ -13,8 +13,8 @@ vim.api.nvim_set_keymap("v", "<", "<gv", {noremap = true, silent = true})
 vim.api.nvim_set_keymap("v", ">", ">gv", {noremap = true, silent = true})
 
 -- Tab switch buffer
-vim.api.nvim_set_keymap("n", "<TAB>", ":BufferNext<CR>", {noremap = true, silent = true})
-vim.api.nvim_set_keymap("n", "<S-TAB>", ":BuffeNext<CR>", {noremap = true, silent = true})
+vim.api.nvim_set_keymap("n", "<TAB>", ":BufferLineCycleNext<CR>", {noremap = true, silent = true})
+vim.api.nvim_set_keymap("n", "<S-TAB>", ":BufferLineCyclePrev<CR>", {noremap = true, silent = true})
 
 -- Telescope
 vim.api.nvim_set_keymap("n", "<Leader>ff", ":Telescope find_files<CR>", {noremap = true, silent = true})
@@ -58,7 +58,7 @@ vim.api.nvim_exec(
   [[
 augroup FormatAutogroup
   autocmd!
-  autocmd BufWritePost *.js,*.rs,*.lua,8.jsx,*.tsx,*.html,*.json,*.ts FormatWrite
+  autocmd BufWritePost *.js,*.rs,*.lua,*.jsx,*.tsx,*.html,*.json,*.ts FormatWrite
 augroup END
 ]],
   true

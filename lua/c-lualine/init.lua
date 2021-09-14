@@ -1,6 +1,6 @@
 require("lualine").setup {
   options = {
-    theme = "material-nvim",
+    theme = "papercolor_light",
     section_separators = {"", ""},
     component_separators = {"", ""},
     icons_enabled = true
