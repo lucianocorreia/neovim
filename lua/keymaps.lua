@@ -6,7 +6,7 @@ vim.g.mapleader = " "
 vim.api.nvim_set_keymap("n", "<Leader>h", ":set hlsearch!<CR>", {noremap = true, silent = true})
 
 -- Nvim Tree
-vim.api.nvim_set_keymap("n", "<Leader>e", ":NvimTreeToggle<CR>", {noremap = true, silent = true})
+vim.api.nvim_set_keymap("n", "<Leader>1", ":NvimTreeToggle<CR>", {noremap = true, silent = true})
 
 -- better identing
 vim.api.nvim_set_keymap("v", "<", "<gv", {noremap = true, silent = true})
