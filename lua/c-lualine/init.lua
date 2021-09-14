@@ -1,6 +1,6 @@
 require("lualine").setup {
   options = {
-    theme = "papercolor_light",
+    theme = "everforest",
     section_separators = {"", ""},
     component_separators = {"", ""},
     icons_enabled = true

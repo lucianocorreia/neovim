@@ -4,12 +4,13 @@ return require("packer").startup(
     use "wbthomason/packer.nvim"
 
     -- Colorschemes
-	use {
-		'https://git.sr.ht/~novakane/kosmikoa.nvim',
-		config = function()
-			require'kosmikoa'
-		end,
-	}
+    use "sainnhe/everforest"
+    use {
+      "https://git.sr.ht/~novakane/kosmikoa.nvim",
+      config = function()
+        -- require "kosmikoa"
+      end
+    }
 
     -- Icons
     use "kyazdani42/nvim-web-devicons"
@@ -50,7 +51,7 @@ return require("packer").startup(
     use "neovim/nvim-lspconfig"
     use "hrsh7th/nvim-compe"
     use "ray-x/lsp_signature.nvim"
-   use "mhartington/formatter.nvim"
+    use "mhartington/formatter.nvim"
     use "glepnir/lspsaga.nvim"
     -- use "fatih/vim-go"
     use "ray-x/go.nvim"
