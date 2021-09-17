@@ -6,9 +6,13 @@ return require("packer").startup(
     -- Colorschemes
     use "sainnhe/everforest"
     use {
-      "https://git.sr.ht/~novakane/kosmikoa.nvim",
+      "projekt0n/github-nvim-theme",
       config = function()
-        -- require "kosmikoa"
+        require("github-theme").setup(
+          {
+            theme_style = "dark"
+          }
+        )
       end
     }
 
