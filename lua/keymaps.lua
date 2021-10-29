@@ -5,8 +5,8 @@ vim.g.mapleader = " "
 -- clear search
 vim.api.nvim_set_keymap("n", "<Leader>h", ":set hlsearch!<CR>", {noremap = true, silent = true})
 
--- Nvim Tree
-vim.api.nvim_set_keymap("n", "<Leader>1", ":NvimTreeToggle<CR>", {noremap = true, silent = true})
+-- Nvim Telescope file browser 
+vim.api.nvim_set_keymap("n", "<Leader>1", ":Telescope file_browser<CR>", {noremap = true, silent = true})
 
 -- better identing
 vim.api.nvim_set_keymap("v", "<", "<gv", {noremap = true, silent = true})

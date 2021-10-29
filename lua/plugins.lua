@@ -5,31 +5,23 @@ return require("packer").startup(
 
     -- Colorschemes
     use "sainnhe/everforest"
-    use {
-      "projekt0n/github-nvim-theme",
-      config = function()
-        require("github-theme").setup(
-          {
-            theme_style = "dimmed"
-          }
-        )
-      end
-    }
+    -- use {
+    --   "projekt0n/github-nvim-theme",
+    --   config = function()
+    --     require("github-theme").setup(
+    --       {
+    --         theme_style = "dark"
+    --       }
+    --     )
+    --   end
+    -- }
+	use 'sainnhe/gruvbox-material'
 
     -- Icons
     use "kyazdani42/nvim-web-devicons"
     use "ryanoasis/vim-devicons"
 
     use "nvim-treesitter/nvim-treesitter"
-
-    -- File explorer
-    use {
-      "kyazdani42/nvim-tree.lua",
-      -- cmd = "NvimTreeToggle",
-      config = function()
-        require("c-nvimtree").config()
-      end
-    }
 
     -- geral
     use "jiangmiao/auto-pairs"
