@@ -71,119 +71,148 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["auto-pairs"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/auto-pairs"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/auto-pairs",
+    url = "https://github.com/jiangmiao/auto-pairs"
   },
   ["emmet-vim"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/emmet-vim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
   },
   everforest = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/everforest"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
   },
   ["formatter.nvim"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/formatter.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/formatter.nvim",
+    url = "https://github.com/mhartington/formatter.nvim"
   },
   ["go.nvim"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/go.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/go.nvim",
+    url = "https://github.com/ray-x/go.nvim"
   },
   ["gruvbox-material"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/gruvbox-material"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
   },
   ["guihua.lua"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/guihua.lua"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/guihua.lua",
+    url = "https://github.com/ray-x/guihua.lua"
   },
   ["lsp_signature.nvim"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",
+    url = "https://github.com/ray-x/lsp_signature.nvim"
   },
   ["lspsaga.nvim"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
+    url = "https://github.com/glepnir/lspsaga.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/lualine.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/hoob3rt/lualine.nvim"
   },
   ["navigator.lua"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/navigator.lua"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/navigator.lua",
+    url = "https://github.com/ray-x/navigator.lua"
   },
   ["nvim-bufferline.lua"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua",
+    url = "https://github.com/akinsho/nvim-bufferline.lua"
   },
   ["nvim-colorizer.lua"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
   ["nvim-comment"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-comment"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    url = "https://github.com/terrortylor/nvim-comment"
   },
   ["nvim-compe"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-compe"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-compe",
+    url = "https://github.com/hrsh7th/nvim-compe"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/packer.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["popup.nvim"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/popup.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/popup.nvim",
+    url = "https://github.com/nvim-lua/popup.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-closetag"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-closetag"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-closetag",
+    url = "https://github.com/alvan/vim-closetag"
   },
   ["vim-devicons"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-devicons"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
   },
   ["vim-floaterm"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-floaterm"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
   },
   ["vim-multiple-cursors"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-multiple-cursors"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-multiple-cursors",
+    url = "https://github.com/terryma/vim-multiple-cursors"
   },
   ["vim-startify"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-startify"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-startify",
+    url = "https://github.com/mhinz/vim-startify"
   },
   ["vim-vsnip"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-vsnip"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    url = "https://github.com/hrsh7th/vim-vsnip"
   },
   ["vim-which-key"] = {
     loaded = true,
-    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-which-key"
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-which-key",
+    url = "https://github.com/liuchengxu/vim-which-key"
   }
 }
 

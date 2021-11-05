@@ -57,6 +57,8 @@ vim.g.go_highlight_extra_types = 1
 vim.g.go_highlight_build_constraints = 1
 vim.g.go_highlight_generate_tags = 1
 
+vim.g.OmniSharp_server_use_mono = 1
+
 ------- Commands -------
 vim.cmd("set ts=4") --Insert 2 spaces for a tab
 vim.cmd("set sw=4") --Change the number of space characters inserted for indentation
