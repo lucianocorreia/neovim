@@ -53,6 +53,8 @@ return require("packer").startup(
     use "ray-x/go.nvim"
     use "hrsh7th/vim-vsnip"
 
+	use "github/copilot.vim"
+
     use {"ray-x/navigator.lua", requires = {"ray-x/guihua.lua", run = "cd lua/fzy && make"}}
   end
 )
