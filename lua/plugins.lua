@@ -49,8 +49,6 @@ return require("packer").startup(
     use "ray-x/lsp_signature.nvim"
     use "mhartington/formatter.nvim"
     use "glepnir/lspsaga.nvim"
-    -- use "fatih/vim-go"
-    use "ray-x/go.nvim"
     use "hrsh7th/vim-vsnip"
 
 	use "github/copilot.vim"
