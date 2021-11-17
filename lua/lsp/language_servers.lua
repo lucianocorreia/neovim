@@ -18,8 +18,8 @@ function goimports(timeout_ms)
 
     local params = vim.lsp.util.make_range_params()
     params.context = context
-    
-    -- format 
+
+    -- format
     vim.lsp.buf.formatting_sync()
 
     -- See the implementation of the textDocument/codeAction callback
@@ -95,10 +95,27 @@ local on_attach = function(client, bufnr)
 end
 
 for _, server in ipairs(langservers) do
+  if(server == 'gopls') then
+    require'lspconfig'[server].setup {
+      capabilities = capabilities,
+      on_attach = on_attach,
+      cmd = {"gopls", "serve"},
+      settings = {
+        gopls = {
+          analyses = {
+            unusedparams = true,
+          },
+          staticcheck = true,
+        },
+      },
+    }
+  else
     require'lspconfig'[server].setup {
       capabilities = capabilities,
       on_attach = on_attach,
     }
+  end
+
 end
 
 vim.api.nvim_exec([[autocmd FileType go setlocal omnifunc=v:lua.vim.lsp.omnifunc]], false)
