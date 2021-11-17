@@ -3,6 +3,8 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use "sainnhe/everforest"
   use 'tiagovla/tokyodark.nvim'
+  use "kyazdani42/nvim-web-devicons"
+  use "ryanoasis/vim-devicons"
   use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
   use {
     'hoob3rt/lualine.nvim',
@@ -38,4 +40,7 @@ return require('packer').startup(function(use)
       require('gitsigns').setup{current_line_blame = true}
     end
   }
+  use "terryma/vim-multiple-cursors"
+  use "voldikss/vim-floaterm"
+  use "mhinz/vim-startify"
 end)

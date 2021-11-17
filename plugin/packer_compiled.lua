@@ -175,6 +175,26 @@ _G.packer_plugins = {
     path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/tokyodark.nvim",
     url = "https://github.com/tiagovla/tokyodark.nvim"
   },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
+  },
+  ["vim-multiple-cursors"] = {
+    loaded = true,
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-multiple-cursors",
+    url = "https://github.com/terryma/vim-multiple-cursors"
+  },
+  ["vim-startify"] = {
+    loaded = true,
+    path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-startify",
+    url = "https://github.com/mhinz/vim-startify"
+  },
   ["vim-vsnip"] = {
     loaded = true,
     path = "/Users/lucianocorreia/.local/share/nvim/site/pack/packer/start/vim-vsnip",

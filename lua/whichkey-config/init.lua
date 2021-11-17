@@ -5,8 +5,6 @@ local mappings = {
   w = {":w<cr>", "Save"},
   x = {":bdelete<cr>", "Close"},
   E = {":e ~/.config/nvim/init.lua<cr>", "Edit config"},
-  f = {":Telescope find_files<cr>", "Telescope Find Files"},
-  r = {":Telescope live_grep<cr>", "Telescope Live Grep"},
   l = {
     name = "LSP",
     i = {":LspInfo<cr>", "Connected Language Servers"},
@@ -21,5 +19,5 @@ local mappings = {
   },
 
 }
-local opts = {prefix = '<leader>'}
+local opts = {}
 wk.register(mappings, opts)
