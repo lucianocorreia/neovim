@@ -14,7 +14,7 @@ map('v', '<', '<gv', {noremap = true, silent = false})
 map('v', '>', '>gv', {noremap = true, silent = false})
 
 -- Telescope
-map("n", "<C-p>", ":Telescope find_files<CR>", {noremap = true, silent = true})
-map("n", "<C-f>", ":Telescope live_grep<CR>", {noremap = true, silent = true})
--- map("n", "<Leader>fb", ":Telescope buffers<CR>", {noremap = true, silent = true})
--- map("n", "<Leader>fh", ":Telescope help_tags<CR>", {noremap = true, silent = true})
+map("n", "<leader>ff", ":Telescope find_files<CR>", {noremap = true, silent = true})
+map("n", "<leader>fg", ":Telescope live_grep<CR>", {noremap = true, silent = true})
+map("n", "<Leader>fb", ":Telescope buffers<CR>", {noremap = true, silent = true})
+map("n", "<Leader>fh", ":Telescope help_tags<CR>", {noremap = true, silent = true})

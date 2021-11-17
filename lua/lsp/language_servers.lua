@@ -53,6 +53,8 @@ local langservers = {
   'gopls',
   'intelephense',
   'vuels',
+  'angularls',
+  "dockerls"
 }
 
 local nvim_lsp = require('lspconfig')
