@@ -18,6 +18,9 @@ function goimports(timeout_ms)
 
     local params = vim.lsp.util.make_range_params()
     params.context = context
+    
+    -- format 
+    vim.lsp.buf.formatting_sync()
 
     -- See the implementation of the textDocument/codeAction callback
     -- (lua/vim/lsp/handler.lua) for how to do this properly.
@@ -41,7 +44,6 @@ function goimports(timeout_ms)
       vim.lsp.buf.execute_command(action)
     end
 
-    vim.lsp.buf.formatting()
   end
 
 local langservers = {
